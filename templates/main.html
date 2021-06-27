@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<html>
+<body>
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color:chocolate;
+            background-color: cornsilk;
+        }
+        h3{
+            color:white;
+            background-color: teal;
+        }
+    </style>
+    <center>
+<h1 class="alert alert-primary ">{{ name }}</h1>
+<h3 class="container bg-secondary">{{ addition }}</h3>
+<img src="https://images.prismic.io/www-static/eceebf5d559465963a9c32c4451e15d2a87d0ff0_sammy-front.png?auto=compress.format" width="300">
+<form action="/frm" method="POST">
+<input class="alert" type="text" name="num1" placeholder="NUMBER 1" size="30">
+<input class="alert" type="text" name="num2" placeholder="NUMBER 2" size="30">
+<input  class="alert" type="text" name="num3" placeholder="NUMBER 3" size="30"></br>
+<button type="submit">ADD</button>
+
+</form>
+</center>
+</body>
+
+
+</html>
